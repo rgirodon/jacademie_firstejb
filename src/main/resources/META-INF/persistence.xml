@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence">
+	<persistence-unit name="StudentManagement">
+		<description></description>	
+		<jta-data-source>jdbc/StudentDb</jta-data-source>
+		<class>org.jacademie.firstejb.entity.Student</class>
+		<properties>
+	       <property name="eclipselink.target-database" value="HSQL"/>
+ 	       <property name="eclipselink.ddl-generation" value="create-tables"/>
+	    </properties>
+	</persistence-unit>
+</persistence>
