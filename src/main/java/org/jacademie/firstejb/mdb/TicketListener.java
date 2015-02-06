@@ -1,4 +1,4 @@
-package org.jacademie.firstejb.service;
+package org.jacademie.firstejb.mdb;
 
 import javax.ejb.ActivationConfigProperty;
 import javax.ejb.MessageDriven;
